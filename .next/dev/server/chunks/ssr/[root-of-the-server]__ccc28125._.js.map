@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///D:/crowdfunding/Components/Navbar.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst Navbar = () => {\r\n  return (\r\n    <div>Navbar</div>\r\n  )\r\n}\r\n\r\nexport default Navbar"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,SAAS;IACb,qBACE,qKAAC;kBAAI;;;;;;AAET;uCAEe"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///D:/crowdfunding/Components/Footer.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst Footer = () => {\r\n  return (\r\n    <div>Footer</div>\r\n  )\r\n}\r\n\r\nexport default Footer"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,SAAS;IACb,qBACE,qKAAC;kBAAI;;;;;;AAET;uCAEe"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///D:/crowdfunding/Components/index.js"],"sourcesContent":["import Navbar from './Navbar'\r\nimport Footer from './Footer'\r\n\r\nexport {Footer,Navbar}"],"names":[],"mappings":";AAAA;AACA"}},
+    {"offset": {"line": 88, "column": 0}, "map": {"version":3,"sources":["file:///D:/crowdfunding/pages/_app.js"],"sourcesContent":["import { Footer, Navbar } from \"@/Components\";\nimport \"@/styles/globals.css\";\n\n\nexport default function App({ Component, pageProps }) {\n  return(\n     <>\n    <Navbar/>\n    <Component {...pageProps} />\n  <Footer/>\n  </>\n  )\n\n}\n"],"names":[],"mappings":";;;;;AAAA;AAAA;AAAA;;;;AAIe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAClD,qBACG;;0BACD,qKAAC,6JAAM;;;;;0BACP,qKAAC;gBAAW,GAAG,SAAS;;;;;;0BAC1B,qKAAC,6JAAM;;;;;;;AAIT"}}]
+}

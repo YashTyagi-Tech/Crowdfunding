@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["file:///D:/crowdfunding/pages/index.js"],"sourcesContent":[" import react,{useEffect,useState,useContext} from \"react\"\n\n import { CrowdFundingContext } from \"@/Context/CrowdFunding\"\n import {Hero,Card,PupUp} from '../Components/index'"],"names":[],"mappings":";AAAC;AAEA;AACA"}}]
+}
